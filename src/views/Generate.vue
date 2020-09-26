@@ -14,7 +14,6 @@ import store from '../store'
 import router from '../router'
 import p5 from 'p5'
 import '../../node_modules/p5/lib/addons/p5.sound'
-import qwant from 'qwant-api'
 const getColors = require('get-image-colors')
 import htmlToImage from 'html-to-image'
 export default {
@@ -47,7 +46,7 @@ export default {
       })
 
       document.body.style.backgroundColor = colors[0]
-      document.body.style.color = colors[2]
+      document.body.style.color = colors[4]
 
       const sketch = s => {
         let w = s.windowWidth

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h3>draw with your song</h3>
+    <h3>drawver</h3>
     <transition name="fade">
     <form v-if='!songFound' @submit.prevent='handleForm'>
       <input type="text"  placeholder="search for a song" v-model='query'>
